@@ -6,78 +6,97 @@
   font-weight: 400;
   font-style: normal;
 }
+
 main {
   background: url(./img/nature.webp);
   height: 80vh;
   background-size: cover;
   background-position: center;
-  padding-left: 6rem;
-  padding-right: 6rem;
+  padding-left: 14rem;
+  padding-right: 14rem;
   padding-top: 3rem;
   position: relative;
 }
+
 header {
   display: flex;
   justify-content: space-between;
 }
+
 nav {
   display: flex;
   align-items: center;
   gap: 2rem;
 }
+
 nav ul {
   display: flex;
   gap: 2rem;
   list-style: none;
 }
+
 nav ul li a {
   text-decoration: none;
   color: white;
 }
+
 footer {
   background-color: #2a282a;
   color: white;
   display: grid;
   grid-template-columns: 7fr 2fr 1fr;
-  padding-top: 2rem;
-  padding-left: 4rem;
-  padding-right: 6rem;
-  padding-bottom: 4rem;
-  line-height: 1.5rem;
+  padding-top: 3rem;
+  padding-left: 15rem;
+  padding-right: 15rem;
+  padding-bottom: 6rem;
+  line-height: 1.6rem;
 }
+
 footer ul li a {
   color: white;
   font-weight: 100;
 }
+
 footer ul {
   list-style: none;
   li {
     font-weight: 100;
+    font-size: 1.1rem;
   }
 }
 
 footer div h4 {
   padding-bottom: 1.5rem;
-  font-weight: 500;
-  font-size: 1.2rem;
+  font-weight: 400;
+  font-size: 1.1rem;
 }
 
 .logo {
   font-size: 2rem;
   color: white;
+  cursor: pointer;
 }
+
 .action-btn {
   all: unset;
   background-color: white;
-  padding: 1rem 2rem;
+  padding: 1.4rem 2.4rem;
   cursor: pointer;
+  transition: opacity 0.3s ease;
 }
+
+.action-btn:hover {
+  opacity: 0.5;
+}
+
 .burger-btn {
   all: unset;
   width: 2rem;
   height: 2rem;
   display: none;
+  cursor: pointer;
 }
+
 .heading-btn {
   text-align: center;
   width: 100px;
@@ -91,27 +110,32 @@ footer div h4 {
   gap: 2rem;
   width: 550px;
 }
+
 .heading h1 {
   color: white;
   font-size: 3rem;
 }
+
 .mission {
   background-color: rgb(201, 184, 158);
   display: grid;
   grid-template-columns: 1fr 1fr;
   align-items: center;
-  padding: 4rem 6rem;
-  gap: 5rem;
+  padding: 4rem 14rem;
+  gap: 8rem;
 }
+
 .mission h3 {
   font-size: 2.2rem;
-  line-height: 1.2;
+  line-height: 1.4;
 }
+
 .mission h4 {
   font-size: 1.5rem;
   font-weight: 300;
-  line-height: 1.8;
+  line-height: 2;
 }
+
 .social-img {
   width: 1.8rem;
   height: 1.8rem;
@@ -120,30 +144,35 @@ footer div h4 {
 .about-1 {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  padding-top: 6rem;
-  padding-left: 10rem;
-  padding-right: 6rem;
+  padding-top: 8rem;
+  padding-left: 16rem;
+  padding-right: 14rem;
   padding-bottom: 2rem;
   gap: 8rem;
 }
+
 .about-2 {
   display: grid;
   grid-template-columns: 1fr 1fr;
   padding-top: 1rem;
-  padding-left: 6rem;
-  padding-right: 6rem;
+  padding-left: 14rem;
+  padding-right: 14rem;
   padding-bottom: 5rem;
   gap: 8rem;
 }
+
 .about-1 div img {
   width: 100%;
 }
+
 .about-2 div img {
   width: 100%;
 }
+
 .about-1 div h2 {
   font-size: 2.1rem;
 }
+
 .about-2 div h2 {
   font-size: 2.1rem;
 }
@@ -155,84 +184,115 @@ footer div h4 {
   gap: 1rem;
   /* order: 1; */
 }
+
 .about-img {
   order: 2;
 }
+
 .about-1 div p {
   line-height: 1.8;
   font-weight: 300;
 }
+
 .about-2 div p {
   line-height: 1.8;
   font-weight: 300;
 }
+
 .about-btn {
   all: unset;
   background-color: rgb(20, 20, 53);
   color: white;
-  padding: 1rem 2rem;
+  padding: 1.4rem 2.4rem;
   text-align: center;
   width: 100px;
+  cursor: pointer;
+  transition: opacity 0.3s ease;
 }
+
+.about-btn:hover {
+  opacity: 0.5;
+}
+
 .accomplishments {
   background: url(./img/forest.jpg);
   color: white;
-  padding: 12rem 17rem;
+  padding: 12rem 25rem;
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 2rem;
 }
+
 .accomplishments h3 {
   font-size: 2.1rem;
   font-weight: 500;
   line-height: 1.4;
   text-align: center;
 }
+
 .accomplishments h4 {
   font-size: 1.4rem;
   font-weight: 300;
 }
+
 .contacts {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  padding: 3rem 4rem;
-  gap: 10rem;
+  padding-top: 4rem;
+  padding-left: 15rem;
+  padding-right: 15rem;
+  padding-bottom: 6rem;
+  gap: 16rem;
 }
+
 .sign-up {
   font-size: 2rem;
   font-weight: 500;
-  line-height: 1.3;
+  line-height: 1.5;
 }
+
 .sign-up-form {
   display: flex;
   flex-direction: column;
   gap: 3rem;
 }
+
 .sign-up-form p {
   font-weight: 300;
   line-height: 1.7;
 }
+
 .sign-up-form input {
   padding: 1rem 2rem;
   border: 1px solid rgb(215, 215, 215);
   color: rgb(215, 215, 215);
 }
+
 .input-btn-form {
   display: flex;
   gap: 0.5rem;
 }
+
 .sign-up-btn {
   all: unset;
   background-color: rgb(20, 20, 53);
   color: white;
-  padding: 1rem 2rem;
+  padding: 1.4rem 1.8rem;
   text-align: center;
   width: 70px;
+  cursor: pointer;
+  transition: opacity 0.3s ease;
 }
+
+.sign-up-btn:hover {
+  opacity: 0.5;
+}
+
 .footer-address {
   order: 1;
 }
+
 .footer-links {
   order: 2;
 }
@@ -244,12 +304,38 @@ footer div h4 {
   .burger-btn {
     display: inline-block;
   }
+  main {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 3rem;
+  }
+  .heading h1 {
+    font-size: 2.5rem;
+  }
+  .heading {
+    position: absolute;
+    bottom: 6rem;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    width: 700px;
+  }
+  .action-btn {
+    width: 250px;
+    padding: 1rem 2rem;
+  }
 
   nav {
     display: none;
   }
   .mission {
     grid-template-columns: 1fr;
+
+    padding-top: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 5rem;
+    gap: 2rem;
   }
   .about-1 {
     grid-template-columns: 1fr;
@@ -275,7 +361,7 @@ footer div h4 {
     object-fit: cover;
   }
   .about-btn {
-    width: 250px;
+    width: 280px;
   }
   .accomplishments {
     padding-left: 2rem;
@@ -293,7 +379,7 @@ footer div h4 {
     grid-template-columns: 1fr;
     gap: 2rem;
     padding-top: 3rem;
-    padding-left: 4rem;
+    padding-left: 3rem;
     padding-right: 4rem;
     padding-bottom: 7rem;
   }
@@ -311,7 +397,9 @@ footer div h4 {
   }
   footer {
     grid-template-columns: 1fr 1fr;
-    padding: 2rem;
+    padding-top: 2rem;
+    padding-left: 3rem;
+    padding-bottom: 5rem;
     gap: 3rem;
   }
 }
